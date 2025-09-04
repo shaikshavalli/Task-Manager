@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Shaik",
+  "license": "ISC",
+  "description": "Db",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikshavalli/Task-Manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaikshavalli/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/shaikshavalli/Task-Manager#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
